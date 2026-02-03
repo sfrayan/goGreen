@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node index.js 2025 3",
-    "generate-2025": "node index.js 2025 3",
+    "generate-2025": "node index.js 2025 3 --dry-run",
+    "generate-2025-push": "node index.js 2025 3 --push",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
