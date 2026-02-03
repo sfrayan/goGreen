@@ -5,6 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node index.js 2025 3",
+    "generate-2025": "node index.js 2025 3",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +16,14 @@
     "jsonfile": "^6.1.0",
     "moment": "^2.30.1",
     "random": "^4.1.0",
-    "simple-git": "^3.25.0"
-  }
+    "simple-git": "^3.30.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenrir2608/goGreen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fenrir2608/goGreen/issues"
+  },
+  "homepage": "https://github.com/fenrir2608/goGreen#readme"
 }
